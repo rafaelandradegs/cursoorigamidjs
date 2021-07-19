@@ -33,7 +33,7 @@ console.log(srcImg);
 
 const carro = {
     portas: 4,
-    andar(km) {
+    andar: function (km) {
         console.log(`Andou ${km} km`);
     }
 }

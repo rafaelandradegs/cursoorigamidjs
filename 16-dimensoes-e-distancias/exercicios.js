@@ -44,7 +44,7 @@ links.forEach((link) => {
 const browser = window.matchMedia('(max-width: 720px)').matches;
 if (browser) {
     let menu = document.querySelector('.menu')
-    menu.classList.add('menu-mobni')
+    menu.classList.add('menu-mobile')
 } else {
     console.log('Usuario Desktop');
 }

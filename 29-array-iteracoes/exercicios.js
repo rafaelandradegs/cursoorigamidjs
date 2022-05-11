@@ -23,18 +23,15 @@ const objetoCurso = arrayCursos.map(curso => {
 console.log(objetoCurso)
 console.log(arrayCursos)
 
-
 // Retorne uma lista com os numeros maiores que 100
 
 const numeros = [3, 44, 333, 23, 122, 322, 33]
-
-
 
 const maiorQ100 = numeros.filter(numero => numero > 100)
 
 console.log(maiorQ100)
 
-// verifique se baixo faz parte  da lista de instrumentos e retorne true 
+// verifique se baixo faz parte  da lista de instrumentos e retorne true
 
 const instrumentos = ['Guitarra', 'Baixo', 'Bateria', 'Teclado']
 
@@ -42,7 +39,6 @@ const instrumentos = ['Guitarra', 'Baixo', 'Bateria', 'Teclado']
 
 const temBaixo = instrumentos.some(i => i === 'Baixo')
 console.log(temBaixo)
-
 
 // Retorne o valor total das compras
 
@@ -73,8 +69,5 @@ const totalCompras = compras.reduce((acumulador, item) => {
         // console.log(item)
     return acumulador + item
 }, 0)
-
-
-
 
 console.log(totalCompras)
